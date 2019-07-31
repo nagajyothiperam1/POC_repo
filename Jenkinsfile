@@ -4,8 +4,8 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Hello world!"'
-				sh 'task.sh'
-				}
+		sh './task.sh'
+		  }
         }
     }
 }
