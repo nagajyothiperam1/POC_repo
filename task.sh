@@ -1,3 +1,2 @@
-execute(){
 javac CreateAJar.java
-}
+
