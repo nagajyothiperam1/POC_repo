@@ -1,2 +1,2 @@
-javac CreateAJar.java
+sh 'javac CreateAJar.java'
 
