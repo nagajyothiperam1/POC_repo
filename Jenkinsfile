@@ -2,16 +2,18 @@ pipeline {
     agent any
     stages {
 	stage('load'){
-		steps{
-			script{
+	    steps{
+		script{
 	         	def task=load 'task.sh'
-			}
 		}
-	   }
+	    }
+	}
         stage('Build') {
             steps {
-		task.execute()
-	    }	  
+	        script{
+	         task.execute()
+		    }	  
+	    }
 	}
     }
 }
