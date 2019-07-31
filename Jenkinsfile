@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'echo "Hello world!"'
-				sh 'javac CreateAJar.java'
+				sh 'task.sh'
 				}
         }
     }
