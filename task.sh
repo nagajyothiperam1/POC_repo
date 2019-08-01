@@ -6,5 +6,5 @@ cd ..
 find . -name "doc.pem"
 ls
 cp doc.pem /home/jenkins/workspace/POC_repo_master/
-chmod 400 doc.pem
+chmod 400 /home/jenkins/workspace/POC_repo_master/doc.pem
 '''
