@@ -9,12 +9,6 @@ pipeline {
 		}
 	    }
 	}
-        stage('Build') {
-            steps {
-	        script{
-	          sh './task.sh'
-		    }	  
-	    }
-	}
+        
     }
 }
