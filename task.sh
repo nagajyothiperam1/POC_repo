@@ -1,3 +1,4 @@
-sh 'javac CreateAJar.java'
-sh 'ls'
-
+sh '''javac CreateAJar.java
+jar -cvf MyJar.jar CreateAJar.class
+ls
+'''
