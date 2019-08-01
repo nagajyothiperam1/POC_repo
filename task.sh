@@ -6,6 +6,4 @@ cd ..
 find . -name "doc.pem"
 ls
 chmod 400 doc.pem
-sleep 100000
-scp -i doc.pem /home/jenkins/workspace/POC_repo_master/*.jar ec2-user@3.18.218.105:~/
 '''
